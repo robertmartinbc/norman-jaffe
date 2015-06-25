@@ -8,6 +8,15 @@
 </head>
 <body>
 
+	<!== Create Navigation links ==>
+	<ul>
+		<li><%= link_to "Home", welcome_index_path %></li>
+		<li><%= link_to "Philosophy", welcome_philosophy_path %></li>
+		<li><%= link_to "Projects", welcome_projects_path %></li>
+		<li><%= link_to "Biography", welcome_biography_path %></li>
+		<li><%= link_to "Contact", welcome_contact_path %></li>
+	</u>
+
 <%= yield %>
 
 </body>
